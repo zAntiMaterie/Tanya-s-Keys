@@ -4,7 +4,7 @@ A lightweight Fabric mod that shows a live **WASD + SPACE** key display on your 
 
 ## Features
 
-- 🎮 Real-time WASD + Jump (SPACE) overlay
+- 🎮 Real time WASD + Jump (SPACE) overlay
 - 🟩 Keys highlight instantly when pressed
 - 🪶 Minimal, dependency-light HUD element, no performance impact
 - 🎨 Simple to reposition/reskin by editing a few constants (size, gap, colors, anchor corner)
