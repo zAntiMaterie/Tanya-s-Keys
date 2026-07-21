@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "tanyaskeys",
+	"version": "${version}",
+	"name": "Tanya's Keys",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"TanyaEvil"
+	],
+	"contact": {
+		"homepage": "Discord: erikthegreat7622",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tanyaskeys/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"tanya.keys.TanyaSKeys"
+		],
+		"client": [
+			"tanya.keys.client.TanyasKeysClient"
+		]
+	},
+	"mixins": [
+		"tanyaskeys.mixins.json",
+		{
+			"config": "tanyaskeys.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
